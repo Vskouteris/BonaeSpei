@@ -1,0 +1,11 @@
+<h1> Projects </h1>
+
+{% for pr in projects.all %}
+
+{{pr.summary}}
+
+<img src="{{ pr.image.url }}" width="200px"/>
+
+<br>
+
+{% endfor%}

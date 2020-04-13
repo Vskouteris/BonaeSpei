@@ -1,0 +1,4 @@
+/static
+/mysite/__pycache__
+/projects/__pycache__
+*.sqlite3
