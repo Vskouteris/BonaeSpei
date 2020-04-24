@@ -33,5 +33,8 @@ CREATE SUPERUSER ACCOUNT
 python manage.py createsuperuser 	and fill username mail and password then go to your server(localhost:8000) /admin and you can log in
 
 
-
+CONNECT HTML WITH CSS
+Go to settings.py and add static_url and STATICFILES_DIRS that points to where you have the css files.Then go to html file and add on the
+top {% load static %} and then go reference the stylesheets this way  : 
+<link rel="stylesheet" href="{% static 'css/cage/demo.min.css' %}">
 
